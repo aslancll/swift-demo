@@ -14,6 +14,16 @@
 		63CF0A7520B4FF3D004DDE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CF0A7320B4FF3D004DDE27 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		63CF0A9E20B50095004DDE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63CF0A9A20B50093004DDE27 /* swift-demo-demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63CF0A8520B50092004DDE27;
+			remoteInfo = "swift-demo-demo";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		63CF0A6720B4FF3A004DDE27 /* swift-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CF0A6A20B4FF3B004DDE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +32,7 @@
 		63CF0A7120B4FF3D004DDE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63CF0A7420B4FF3D004DDE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63CF0A7620B4FF3D004DDE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CF0A9A20B50093004DDE27 /* swift-demo-demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift-demo-demo.xcodeproj"; path = "swift-demo-demo/swift-demo-demo.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 		63CF0A6920B4FF3A004DDE27 /* swift-demo */ = {
 			isa = PBXGroup;
 			children = (
+				63CF0A9A20B50093004DDE27 /* swift-demo-demo.xcodeproj */,
 				63CF0A6A20B4FF3B004DDE27 /* AppDelegate.swift */,
 				63CF0A6C20B4FF3B004DDE27 /* ViewController.swift */,
 				63CF0A6E20B4FF3B004DDE27 /* Main.storyboard */,
@@ -62,6 +74,14 @@
 				63CF0A7620B4FF3D004DDE27 /* Info.plist */,
 			);
 			path = "swift-demo";
+			sourceTree = "<group>";
+		};
+		63CF0A9B20B50093004DDE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63CF0A9F20B50095004DDE27 /* swift-demo-demo.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,12 +130,28 @@
 			mainGroup = 63CF0A5E20B4FF3A004DDE27;
 			productRefGroup = 63CF0A6820B4FF3A004DDE27 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 63CF0A9B20B50093004DDE27 /* Products */;
+					ProjectRef = 63CF0A9A20B50093004DDE27 /* swift-demo-demo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				63CF0A6620B4FF3A004DDE27 /* swift-demo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		63CF0A9F20B50095004DDE27 /* swift-demo-demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "swift-demo-demo.app";
+			remoteRef = 63CF0A9E20B50095004DDE27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		63CF0A6520B4FF3A004DDE27 /* Resources */ = {
